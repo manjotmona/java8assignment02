@@ -8,18 +8,18 @@ import java.util.Optional;
  */
 public class Student {
 
- public String name;
- public int rollNumber;
- public  Optional<List<String>> subjects;
+    public String name;
+    public int rollNumber;
+    public Optional<List<String>> subjects;
 
-  public Student(String name, int rollNumber, Optional<List<String>> subject) {
-    this.name = name;
-    this.rollNumber = rollNumber;
-    this.subjects = subject;
-  }
+    public Student(String name, int rollNumber, Optional<List<String>> subject) {
+        this.name = name;
+        this.rollNumber = rollNumber;
+        this.subjects = subject;
+    }
 
-  public String toString() {
-    return this.name;
-  }
+    public String toString() {
+        return this.name;
+    }
 
 }
